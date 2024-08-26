@@ -4,6 +4,7 @@ body {
     margin: 0px;
     font-family: "Chakra Petch", sans-serif;
     display: block;
+    margin-bottom: 100px;
 }
 
 header {
@@ -32,15 +33,32 @@ h1 {
 p {
     font-size: 20px;
 }
-img{
+
+img {
     height: 200px;
 }
-.videos{
+
+.videos {
     display: flex;
     overflow-x: auto;
     gap: 10px;
 }
+
 .categoria {
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+}
+
+.videos img {
+    opacity: 0.5;
+}
+
+.videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green
+}
+
+.categoria h2 {
+    color: rgb(44, 122, 228);
 }
